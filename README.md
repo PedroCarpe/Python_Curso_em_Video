@@ -1,2 +1,2 @@
 # Python_Curso_em_Video
-Algoritmos do curso de Python: Curso em Video/Gustavo Guanabara
+Algoritmos do curso de Python: Curso em Video/Gustavo Guanabara 'Mundo1'
