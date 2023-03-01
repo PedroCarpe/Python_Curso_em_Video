@@ -3,7 +3,7 @@ print('___Sobre: Analisador de Nomes___\n')
 nome = input('Digite seu nome completo: ')
 
 print('\nSeu nome em maiúsculas, é: '+nome.upper())
-print('Seu nome em maiúsculas, é: '+nome.lower())
+print('Seu nome em minúsculas, é: '+nome.lower())
 
 espaços = nome.count(" ")
 primeiroNome = nome.split()
