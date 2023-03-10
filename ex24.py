@@ -5,16 +5,16 @@ while True:
     cidade = input('\nEm que cidade você nasceu? ')
     alfabetico = False
     cidade = cidade.split()
-    #'valorLogico', variavel criada pois, o valor da -var- 'alfabetico' nao é preciso, quero dizer, ele é atualizado, dentro do -for-
+    #'valor_logico', variavel criada pois, o valor da -var- 'alfabetico' nao é preciso, quero dizer, ele é atualizado, dentro do -for-
     
     for elementos in cidade:
         alfabetico = elementos.isalpha()
         if alfabetico == False:
-            valorLogico = False
+            valor_logico = False
         else:
-            valorLogico = True
+            valor_logico = True
     
-    if valorLogico == True:
+    if valor_logico == True:
         
         if cidade[0].lower() == 'santo':
             print(True)

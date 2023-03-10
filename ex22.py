@@ -6,7 +6,7 @@ print('\nSeu nome em maiúsculas, é: '+nome.upper())
 print('Seu nome em minúsculas, é: '+nome.lower())
 
 espaços = nome.count(" ")
-primeiroNome = nome.split()
+primeiro_nome = nome.split()
 
 print(f'Seu nome tem ao todo {len(nome)-espaços} letras')
-print(f'Seu 1º nome é {primeiroNome[0]} e tem {len(primeiroNome[0])} letras')
+print(f'Seu 1º nome é {primeiro_nome[0]} e tem {len(primeiro_nome[0])} letras')

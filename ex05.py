@@ -1,11 +1,11 @@
 print('___Sobre: Antecessor e Sucessor___\n')
-a = int(input('Digite um número: '))
-print(f'O antecessor de {a} é {a-1}\nE o sucessor de {a} é {a+1}.')
+numero = int(input('Digite um número: '))
+print(f'O antecessor de {numero} é {numero-1}\nE o sucessor de {numero} é {numero+1}.')
 
 #outra possibilidade
 
-'''a = int(input('Digite um número: '))
-print('Dado o número {}, o seu antecessor é {} e o seu sucessor é {}.'.format(a,(a-1),(a+1)))'''
+'''numero = int(input('Digite um número: '))
+print('Dado o número {}, o seu antecessor é {} e o seu sucessor é {}.'.format(numero,(numero-1),(numero+1)))'''
 
 #------------------
 #Aplicação do conceito do exercício

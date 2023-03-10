@@ -1,10 +1,10 @@
 import math
 
 print('___Sobre: O Dobro, Triplo e Raiz Quadrada___\n')
-a = int(input('Digite um número: '))
-print(f'\nO dobro de {a} vale {2*a}')
-print(f'O triplo de {a} vale {3*a}')
-print(f'A raiz quadrada de {a} vale {math.sqrt(a):.2f}')
+numero = int(input('Digite um número: '))
+print(f'\nO dobro de {numero} vale {2*numero}')
+print(f'O triplo de {numero} vale {3*numero}')
+print(f'A raiz quadrada de {numero} vale {math.sqrt(numero):.2f}')
 
 
 #Aplicação do conceito do exercício, notas musicais e frequência

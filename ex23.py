@@ -23,4 +23,5 @@ for contador in range(len(numero)):
     if len(numero) == 2:
         print(numero[contador]+sistema_de_numeracao[contador+2])
     if len(numero) == 1:
-        print(numero[contador]+sistema_de_numeracao[-1])    
+        print(numero[contador]+sistema_de_numeracao[-1])
+        
